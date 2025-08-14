@@ -8,9 +8,10 @@ Desktop: de 1024px até 1280px
 Grandes Telas: acima de 1280px 
 */ 
  
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Para Tablets */
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -25,9 +26,10 @@ Grandes Telas: acima de 1280px
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* Para Desktops */
     section#login {
         width: 950px;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -46,6 +48,6 @@ Grandes Telas: acima de 1280px
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
